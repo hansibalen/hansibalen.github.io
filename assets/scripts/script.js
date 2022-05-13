@@ -68,7 +68,7 @@ window.onload = function () {
     "Scroll down to find out more.",
   ];
 
-  const el = document.querySelector(".text");
+  const el = document.querySelector(".scramble-text");
   const fx = new TextScramble(el);
 
   let counter = 0;

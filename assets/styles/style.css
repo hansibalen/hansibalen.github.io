@@ -12,6 +12,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   background-color: #000000;
   font-family: "Helvetica Thin";
   color: #ffffff;
@@ -19,17 +20,6 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
-}
-
-/* Section scroll animation */
-.container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
-section {
-  scroll-snap-align: start;
 }
 
 /* Content containers */
@@ -45,12 +35,17 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
-.text {
-  font-weight: 100;
-  font-size: 22px;
-  position: relative;
+.hero-button {
+  margin-top: 2rem;
+  display: flex;
+  gap: 40px;
+}
+
+.scramble-text {
+  font-size: 48px;
 }
 .dud {
   color: #ffffff;

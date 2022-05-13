@@ -18,6 +18,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* Hero section */
+  .scramble-text {
+    font-size: 32px;
+  }
+
   /* About section */
   .about-description {
     width: 90%;
@@ -38,6 +43,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  /* Hero section */
+  .scramble-text {
+    font-size: 24px;
+  }
+
   /* About section */
   .about-title {
     margin-top: 2rem;
