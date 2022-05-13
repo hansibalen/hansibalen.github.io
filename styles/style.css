@@ -10,12 +10,14 @@
 html,
 body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1080px;
   box-sizing: border-box;
-  background-color: #000000;
-  font-family: "Helvetica Thin";
   color: #ffffff;
+  background-color: #000000;
+  scroll-behavior: smooth;
+  font-family: "Helvetica Thin";
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -28,21 +30,19 @@ body {
 .work-content {
   display: flex;
   min-height: 100vh;
-}
-
-.section-title {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-/* Hero section */
-.scramble-container {
   justify-content: center;
   text-align: center;
   flex-direction: column;
 }
 
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Hero section */
 .scramble-text {
   font-size: 3rem;
 }
@@ -51,12 +51,38 @@ body {
   color: #ffffff;
 }
 
+.hero-button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.btn-outline-light {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 /* About section */
-.about-content {
+.about-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 4rem;
   justify-content: center;
 }
 
-/* Work section */
-.work-content {
-  justify-content: center;
+.about-description {
+  margin-top: 2rem;
+  font-size: 18px;
+  text-align: justify;
+  max-width: 450px;
 }
+
+/* Work section */
