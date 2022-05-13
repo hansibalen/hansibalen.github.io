@@ -60,6 +60,7 @@ body {
 }
 
 .btn-outline-light {
+  border-radius: 9px;
   padding: 0.5rem 1.5rem;
   font-size: 1.5rem;
 }
@@ -83,6 +84,18 @@ body {
   font-size: 18px;
   text-align: justify;
   max-width: 450px;
+  text-wrap: wrap;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Work section */
