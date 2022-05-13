@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-/* General styling */
+/* Global styling */
 html,
 body {
   height: 100%;
@@ -22,7 +22,7 @@ body {
   background: transparent;
 }
 
-/* Content containers */
+/* Container common styles */
 .scramble-container,
 .about-content,
 .projects-content {
@@ -30,23 +30,17 @@ body {
   min-height: 100vh;
 }
 
-/* Text scrambler */
+/* Hero section */
 .scramble-container {
   justify-content: center;
-  align-items: center;
   text-align: center;
   flex-direction: column;
 }
 
-.hero-button {
-  margin-top: 2rem;
-  display: flex;
-  gap: 40px;
+.scramble-text {
+  font-size: 3rem;
 }
 
-.scramble-text {
-  font-size: 48px;
-}
 .dud {
   color: #ffffff;
 }
