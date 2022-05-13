@@ -1,20 +1,10 @@
 @media screen and (max-width: 1200px) {
-  /* About section */
-  .contact-icons {
-    width: 15%;
-  }
 }
 
-@media screen and (max-width: 1024px) {
-  /* About section */
-  .contact-icons {
-    width: 20%;
-  }
+@media screen and (max-width: 1080px) {
+}
 
-  /* Projects section */
-  .project-image {
-    width: 60%;
-  }
+@media screen and (max-width: 992px) {
 }
 
 @media screen and (max-width: 768px) {
@@ -22,74 +12,11 @@
   .scramble-text {
     font-size: 2rem;
   }
-
-  /* About section */
-  .about-description {
-    width: 90%;
-  }
-
-  .technologies {
-    width: 90%;
-  }
-
-  .contact-icons {
-    width: 30%;
-  }
-
-  /* Projects section */
-  .project-image {
-    width: 80%;
-  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
   /* Hero section */
   .scramble-text {
     font-size: 1.5rem;
-  }
-
-  /* About section */
-  .about-title {
-    margin-top: 2rem;
-  }
-
-  .technologies-title {
-    margin-top: 1rem;
-  }
-
-  .about-description {
-    width: 90%;
-  }
-
-  .technologies {
-    width: 90%;
-  }
-
-  .contact-title,
-  .scroll-down {
-    margin-top: 2rem;
-  }
-
-  .contact-icons {
-    width: 40%;
-  }
-
-  /* Projects section */
-  .projects-main-title {
-    margin-top: 2rem;
-  }
-
-  .siema {
-    margin-top: 2rem;
-  }
-
-  .project-image {
-    width: 90%;
-  }
-
-  .project-description {
-    text-align: center;
-    display: inline-block;
-    width: 80%;
   }
 }
