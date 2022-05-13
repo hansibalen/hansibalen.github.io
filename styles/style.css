@@ -25,9 +25,15 @@ body {
 /* Container common styles */
 .scramble-container,
 .about-content,
-.projects-content {
+.work-content {
   display: flex;
   min-height: 100vh;
+}
+
+.section-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* Hero section */
@@ -46,117 +52,11 @@ body {
 }
 
 /* About section */
-.about-content,
-.technologies {
-  text-align: center;
-}
-
-.about-description,
-.technologies {
-  align-self: center;
-  width: 50%;
-}
-
-.about-title,
-.technologies-title {
-  margin-top: 4rem;
-}
-
-.about-description,
-.contact-icons {
-  display: flex;
-}
-
 .about-content {
-  flex-direction: column;
-}
-
-.about-description {
-  text-align: justify;
-}
-
-.technologies {
-  margin-right: 2rem;
-}
-
-.contact-title {
-  margin-top: 4rem;
-}
-
-.scroll-down {
-  margin-top: 4rem;
-}
-
-.contact-icons {
-  justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
-  width: 10%;
-  font-size: 25px;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline;
-  padding-right: 10px;
-}
-
-/* Contact links */
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: crimson;
-}
-
-/* Projects section */
-.projects-content,
-.siema {
-  text-align: center;
-}
-
-.projects-content {
-  flex-direction: column;
-}
-
-.projects-main-title {
-  margin-top: 4rem;
-}
-
-/* Project carousel slider */
-.siema {
-  position: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
 }
 
-.project-image {
-  width: 40%;
-}
-
-/* Add white border to projects with dark preview images */
-.white-border {
-  border: 1px solid #ffffff;
-}
-
-/* Projects buttons */
-a.btn {
-  text-decoration: none;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  margin: 0.5rem;
-  color: #ffffff;
-  background-color: #000000;
-  box-shadow: none;
-}
-
-a.button:hover {
-  background-color: #ffffff;
-  color: #000000;
+/* Work section */
+.work-content {
+  justify-content: center;
 }
