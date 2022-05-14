@@ -6,17 +6,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Primary Meta Tags -->
+    <!-- Meta tags -->
     <title>Hansi Brahimasi | Developer</title>
     <meta name="title" content="Hansi Brahimasi | Developer">
     <meta name="description" content="Exploring the wonders of generative art.">
-    <!-- Open Graph / Facebook -->
     <meta name="og:type" content="website">
     <meta name="og:url" content="https://hnsblnbrg.github.io/">
     <meta name="og:title" content="Hansi Brahimasi | Developer">
     <meta name="og:description" content="Exploring the wonders of generative art.">
     <meta name="og:image" content="https://i.imgur.com/a3MO0fN.jpg">
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://hnsblnbrg.github.io/">
     <meta name="twitter:title" content="Hansi Brahimasi | Developer">
@@ -40,17 +38,17 @@
         <div class="pulse"></div>
     </div>
 
+    <!-- Content -->
     <div class="container">
-
         <!-- Hero section -->
         <section>
             <div class="scramble-container">
                 <div class="scramble-text"></div>
                 <div class="hero-button-section">
-                    <button type="button" onClick="document.getElementById('about').scrollIntoView();"
-                        class="btn btn-outline-light ">About me</button>
-                    <button type="button" onClick="document.getElementById('work').scrollIntoView();"
-                        class="btn btn-outline-light">My work</button>
+                    <button type="button" onClick="document.getElementById('about').scrollIntoView();" class="btn">About
+                        me</button>
+                    <button type="button" onClick="document.getElementById('work').scrollIntoView();" class="btn">My
+                        work</button>
                 </div>
             </div>
         </section>
@@ -60,7 +58,8 @@
             <div class="about-content">
                 <h1 class="section-title">About Me</h1>
                 <div class="about-container">
-                    <div class="about-sub-section">
+                    <!-- Description -->
+                    <div>
                         <h2 class="about-subtitle">Who am I?</h2>
                         <p class="about-description">
                             I'm a software developer who has been coding for leisure for over 4
@@ -68,39 +67,55 @@
                             time, I like to explore the wonders of generative art. Lorem ipsum dolor sit, amet
                             consectetu adipisicing elit. Accusamus ratione fugit reprehenderit itaque molestiae repellat
                             unde qui asperiores sequi perferendis, ad, enim ullam quas cumque modi? Modi dolorem
+                            recusandae nisi. Lorem ipsum dolor sit, amet
+                            consectetu adipisicing elit. Accusamus ratione fugit reprehenderit itaque molestiae repellat
+                            unde qui asperiores sequi perferendis, ad, enim ullam quas cumque modi? Modi dolorem
                             recusandae nisi.
                         </p>
                     </div>
+                    <!-- Image -->
+                    <div>
+                        <img src="/assets/images/profile.jpg" loading="lazy" class="about-img" alt="about profile" />
+                    </div>
 
-                    <div class="about-sub-section">
+                    <!-- Tech stack -->
+                    <div>
                         <h2 class="about-subtitle">Tech I'm familiar with:</h2>
-                        <div class="tech about-description"">
+                        <div class="tech about-description">
                             <li>
                                 <ul>HTML</ul>
                                 <ul>CSS</ul>
                                 <ul>JavaScript</ul>
                                 <ul>TypeScript</ul>
+                                <ul>React</ul>
                             </li>
                             <li>
+                                <ul>Gatsby</ul>
                                 <ul>Tailwind</ul>
                                 <ul>MaterialUI</ul>
                                 <ul>Java</ul>
                                 <ul>Python</ul>
                             </li>
                             <li>
-                                <ul>SQL</ul>
                                 <ul>GIT</ul>
+                                <ul>SQL</ul>
+                                <ul>Webpack</ul>
                                 <ul>Processing</ul>
                                 <ul>p5.js</ul>
                             </li>
                         </div>
-
+                    </div>
+                    <!-- Contact info -->
+                    <div>
+                        <h2 class="about-subtitle">Contact me</h2>
+                        <a href="mailto: hansibrahimasi@gmail.com" target="_blank" rel="noreferrer noopener"
+                            class="about-description">Send me an email</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects section -->
+        <!-- Work section -->
         <section id="work">
             <div class="work-content">
                 <h1 class="section-title">My work</h1>
