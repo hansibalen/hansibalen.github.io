@@ -59,12 +59,11 @@ li {
   z-index: 1000;
 }
 #button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
+  content: "^";
+  font-weight: bold;
   font-style: normal;
-  font-size: 1.5em;
-  line-height: 50px;
+  font-size: 2.5em;
+  line-height: 60px;
   color: #ffffff;
 }
 #button:hover {
@@ -187,19 +186,4 @@ li {
   flex-direction: row;
   justify-content: center;
 }
-
-.contact-svg {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 2rem;
-  gap: 40px;
-}
-
-.info-svg {
-  width: 40px;
-  height: 40px;
-  filter: brightness(0) invert(1);
-}
-
 /* Work section */
