@@ -1,7 +1,3 @@
-$(document).ready(function () {
-  $(this).scrollTop(0);
-});
-
 // Preloader
 setTimeout(function () {
   $(".preloader").fadeToggle();
@@ -68,8 +64,8 @@ window.onload = function () {
   const phrases = [
     "Hey there.",
     "I'm Hansi Brahimasi.",
-    "A web developer.",
-    "A generative art creator.",
+    "A front-end developer.",
+    "A generative art developer.",
     "Scroll down to find out more.",
   ];
 
@@ -100,4 +96,9 @@ $(window).scroll(function () {
 btn.on("click", function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: 0 }, "300");
+});
+
+// Scroll to top on page reload
+$(document).ready(function () {
+  $(this).scrollTop(0);
 });
