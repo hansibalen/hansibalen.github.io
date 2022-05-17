@@ -42,6 +42,43 @@ li {
   list-style-type: none;
 }
 
+/* Scroll to top btn */
+#button {
+  display: inline-block;
+  background-color: #00c897;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 50px;
+  color: #ffffff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #019267;
+}
+#button:active {
+  background-color: #019267;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* Container common styles */
 .scramble-container,
 .about-content,
@@ -80,7 +117,7 @@ li {
 .btn {
   font-size: 1.5rem;
   border: transparent;
-  background-image: linear-gradient(to right, #68a7ad, #68a7ad 50%, #fff 50%);
+  background-image: linear-gradient(to right, #00c897, #00c897 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   padding: 5px 0;
@@ -92,7 +129,7 @@ li {
 
 .btn:before {
   content: "";
-  background: #68a7ad;
+  background: #00c897;
   position: absolute;
   bottom: -3px;
   left: 0;

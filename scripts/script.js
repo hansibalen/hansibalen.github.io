@@ -1,3 +1,7 @@
+$(document).ready(function () {
+  $(this).scrollTop(0);
+});
+
 // Preloader
 setTimeout(function () {
   $(".preloader").fadeToggle();
@@ -5,7 +9,7 @@ setTimeout(function () {
 
 $(".intro").velocity("fadeIn", { duration: 1000 });
 
-//Text scrambler
+//Hero text scrambler
 window.onload = function () {
   class TextScramble {
     constructor(el) {
@@ -63,8 +67,9 @@ window.onload = function () {
 
   const phrases = [
     "Hey there.",
-    "I'm Hansi Brahimasi...",
-    "A software developer.",
+    "I'm Hansi Brahimasi.",
+    "A web developer.",
+    "A generative art creator.",
     "Scroll down to find out more.",
   ];
 
@@ -80,3 +85,19 @@ window.onload = function () {
   };
   next();
 };
+
+// Scroll to top button
+var btn = $("#button");
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
+});
+
+btn.on("click", function (e) {
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "300");
+});
