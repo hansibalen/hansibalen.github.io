@@ -37,10 +37,6 @@ a:active {
   color: inherit;
 }
 
-a:hover {
-  color: #68a7ad;
-}
-
 ul,
 li {
   list-style-type: none;
@@ -153,6 +149,20 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.contact-svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 40px;
+}
+
+.info-svg {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
 }
 
 /* Work section */
