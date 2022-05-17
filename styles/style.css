@@ -139,6 +139,10 @@ li {
   text-wrap: wrap;
 }
 
+.about-img-container {
+  align-self: center;
+}
+
 .about-img {
   max-height: 400px;
   border-radius: 10px;
