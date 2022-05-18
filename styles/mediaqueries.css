@@ -10,6 +10,11 @@
   .about-container > * {
     flex: 1 1;
   }
+
+  /* Footer */
+  .footer-contact-icons {
+    margin-right: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -48,5 +53,9 @@
 
   .about-img {
     max-width: 270px;
+  }
+
+  .tech {
+    justify-content: flex-start;
   }
 }
