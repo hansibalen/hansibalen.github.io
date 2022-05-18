@@ -28,6 +28,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #ffffff;
 }
+::selection {
+  background: #00c897;
+}
 
 a,
 a:hover,
@@ -40,6 +43,14 @@ a:active {
 ul,
 li {
   list-style-type: none;
+}
+
+button {
+  font-family: "Helvetica Thin";
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* Scroll to top btn */
@@ -58,6 +69,7 @@ li {
   visibility: hidden;
   z-index: 1000;
 }
+
 #button::after {
   content: "\f106";
   font-family: FontAwesome;
@@ -67,13 +79,16 @@ li {
   line-height: 50px;
   color: #ffffff;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #019267;
 }
+
 #button:active {
   background-color: #019267;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;
@@ -202,6 +217,7 @@ li {
 
 .social:hover {
   color: #00c897;
+  transition: 0.3s ease-in-out;
 }
 
 /* Work section */

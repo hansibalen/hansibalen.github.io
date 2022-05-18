@@ -64,8 +64,8 @@ window.onload = function () {
   const phrases = [
     "Hey there.",
     "I'm Hansi Brahimasi.",
-    "A front-end developer.",
-    "A generative art developer.",
+    "A software developer.",
+    "A generative art creator.",
     "Scroll down to find out more.",
   ];
 
