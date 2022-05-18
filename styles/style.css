@@ -47,6 +47,10 @@ li {
   list-style-type: none;
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
 /* Scroll to top btn */
 #button {
   display: inline-block;
@@ -114,6 +118,12 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.social:hover,
+.social-footer:hover {
+  color: #00c897;
+  transition: 0.3s ease-in-out;
 }
 
 /* Hero section */
@@ -204,17 +214,11 @@ li {
   font-size: 1.5rem;
 }
 
-.social:hover {
-  color: #00c897;
-  transition: 0.3s ease-in-out;
-}
-
 /* Work section */
 .card-container {
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 4rem;
-  margin-bottom: 2rem;
 }
 
 .card-container > * {
@@ -257,4 +261,24 @@ li {
 
 .card-text {
   font-weight: bold;
+}
+
+/* Footer */
+footer {
+  padding-bottom: 1rem;
+  border-top: 2px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-footer {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-contact-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
