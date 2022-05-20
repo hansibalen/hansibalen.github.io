@@ -27,7 +27,7 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  background: #00c897;
 }
 ::selection {
   background: #00c897;
