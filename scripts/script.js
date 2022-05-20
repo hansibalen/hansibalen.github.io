@@ -66,7 +66,7 @@ window.onload = function () {
     "I'm Hansi Brahimasi.",
     "A software developer.",
     "A generative art creator.",
-    "Scroll down to find out more.",
+    "Scroll down for more.",
   ];
 
   const el = document.querySelector(".scramble-text");
