@@ -62,4 +62,9 @@
   .tech {
     justify-content: flex-start;
   }
+
+  /* Work section */
+  .card {
+    padding: 0.8rem;
+  }
 }
