@@ -25,11 +25,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 481px) {
-  .section-title {
-    margin-bottom: -2rem;
-  }
-
+@media screen and (max-width: 320px) {
   /* Hero section */
   .scramble-text {
     font-size: 1.5rem;

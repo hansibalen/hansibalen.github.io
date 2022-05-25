@@ -45,6 +45,7 @@ a:active {
 ul,
 li {
   list-style-type: none;
+  padding: 0;
 }
 
 section {
@@ -112,7 +113,6 @@ section {
 
 .hero-button-section,
 .about-container,
-.tech,
 .contact-icons,
 .card-container {
   display: flex;
@@ -180,8 +180,8 @@ section {
 /* About section */
 .about-container {
   flex-wrap: wrap;
-  gap: 4rem;
-  margin-top: 4rem;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .about-container > * {
@@ -205,6 +205,17 @@ section {
   border: 2px solid #ffffff;
 }
 
+.tech-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact {
+  max-width: 450px;
+  align-self: center;
+}
+
 .contact-icons {
   margin-top: 2rem;
   gap: 2.5rem;
@@ -218,7 +229,7 @@ section {
 .card-container {
   flex-wrap: wrap;
   gap: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .card-container > * {
