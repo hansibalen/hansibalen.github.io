@@ -1,4 +1,5 @@
-/* Tablet */
+/* Small laptops  */
+
 @media screen and (max-width: 992px) {
   /* About section */
   .about-container {
@@ -17,6 +18,8 @@
   }
 }
 
+/* Tablets */
+
 @media screen and (max-width: 768px) {
   /* Hero section */
   .scramble-text {
@@ -25,7 +28,14 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 481px) {
+  /* General */
+  .about-container,
+  .card-container {
+    margin-top: 2rem;
+  }
+
   /* Hero section */
   .scramble-text {
     font-size: 1.5rem;
@@ -39,7 +49,7 @@
   }
 
   .btn {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   /* About section */
@@ -61,6 +71,13 @@
 
   /* Work section */
   .card {
-    padding: 0.8rem;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Hero section */
+  .scramble-text {
+    font-size: 1.156rem;
   }
 }
