@@ -1,83 +1,97 @@
-/* Small laptops  */
+/* Small Laptops (993-1080px)  */
+@media screen and (max-width: 1080px) {
+  .contact {
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+}
 
+/* Big Tablets (769-992px) */
 @media screen and (max-width: 992px) {
-  /* About section */
-  .about-container {
+  .about-info,
+  .project {
     flex-direction: column;
-    align-self: center;
-    gap: 3rem;
+    gap: 1rem;
   }
 
-  .about-container > * {
-    flex: 1 1;
-  }
-
-  /* Footer */
-  .footer-contact-icons {
-    margin-right: 3rem;
-  }
-}
-
-/* Tablets */
-
-@media screen and (max-width: 768px) {
-  /* Hero section */
-  .scramble-text {
-    font-size: 2rem;
-  }
-}
-
-/* Mobile */
-
-@media screen and (max-width: 481px) {
-  /* General */
-  .about-container,
-  .card-container {
-    margin-top: 2rem;
-  }
-
-  /* Hero section */
-  .scramble-text {
-    font-size: 1.5rem;
-  }
-
-  .hero-button-section {
-    flex-direction: column;
-    gap: 2rem;
-    width: 200px;
-    align-self: center;
-  }
-
-  .btn {
-    font-size: 1rem;
-  }
-
-  /* About section */
-  .about-container {
-    gap: 1.5rem;
+  #reverse-project {
+    flex-direction: column-reverse;
   }
 
   .about-description {
-    font-size: 16px;
-  }
-
-  .about-img {
-    max-width: 270px;
-  }
-
-  .tech {
-    justify-content: flex-start;
-  }
-
-  /* Work section */
-  .card {
-    padding: 12px;
+    font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 320px) {
-  /* Hero section */
-  .scramble-text {
-    font-size: 1.156rem;
+/* Small Tablets (481-768px) */
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .info-title {
+    font-size: 2rem;
+    align-text: center;
+  }
+}
+
+/* Mobile (320-480px) */
+@media screen and (max-width: 481px) {
+  #hero {
+    padding: 0px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .work-subtitle,
+  .about-description,
+  .tech-list,
+  .contact {
+    font-size: 1rem;
+  }
+
+  .work-container,
+  .about-container {
+    padding: 15px;
+  }
+
+  .work-title,
+  .about-title {
+    font-size: 3rem;
+  }
+
+  .hero-container {
+    border-radius: 0;
+    height: 100vh;
+  }
+
+  .hero-subtitle {
+    padding: 0 7px 0 7px;
+  }
+
+  .info-title {
+    font-size: 2rem;
+  }
+
+  .project-img:hover {
+    transform: none;
+  }
+
+  .social {
+    font-size: 1.5rem;
   }
 }
