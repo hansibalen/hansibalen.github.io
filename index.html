@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hansi Brahimasi | Development</title>
+    <meta name="title" content="Hansi Brahimasi | Development">
+    <meta name="description" content="Software developer, experienced in front-end development & generative art.">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="https://hansibalen.github.io/">
+    <meta name="og:title" content="Hansi Brahimasi | Development">
+    <meta name="og:description" content="Software developer, experienced in front-end development & generative art.">
+    <meta name="og:image" content="https://hansibalen.github.io/assets/images/preview-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://hansibalen.github.io/">
+    <meta name="twitter:title" content="Hansi Brahimasi | Development">
+    <meta name="twitter:description"
+        content="Software developer, experienced in front-end development & generative art.">
+    <meta name="twitter:image" content="https://hansibalen.github.io/assets/images/preview-image.jpg">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/icon.png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/mediaqueries.css">
+</head>
+
+<body onload="move()">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="percent">0%</div>
+        <div id="bar">
+            <div id="barconfirm"></div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="nav-items" id="menu">
+                <li class="active">
+                    <a type="button" href="#hero" class="btn">Home</a>
+                </li>
+                <li class="">
+                    <a type="button" href="#work" class="btn">Work</a>
+                </li>
+                <li class="">
+                    <a type="button" href="#about" class="btn">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Content -->
+    <div class="container">
+        <!-- Hero section -->
+        <section id="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">Hansi<br>Brahimasi</h1>
+                <p class="hero-subtitle">Software developer, experienced in front-end development & generative art.</p>
+            </div>
+        </section>
+        <!-- Work section -->
+        <section id="work">
+            <div class="work-container">
+                <h1 class="work-title">Recent Work</h1>
+                <h1 class="work-subtitle">A collection of my latest work.</h4>
+                    <div class="project project-left">
+                        <a href="https://github.com/hansibalen/astigmatism" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/images/projects/astigmatism.jpg" class="project-img" alt="Astigmatism">
+                        </a>
+                        <div class="project-info info-right">
+                            <h1 class="project-title">Astigmatism</h1>
+                            <p class="project-description">Highly customizable light trails effect, made for Adobe
+                                AE.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project project-right" id="reverse-project">
+                        <div class="project-info info-left">
+                            <h1 class="project-title">Currents</h1>
+                            <p class="project-description">Generated line paths, inspired by the movement of ocean
+                                currents.
+                            </p>
+                        </div>
+                        <a href="https://github.com/hansibalen/currents" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/images/projects/III.jpg" class="project-img" alt="Currents">
+                        </a>
+                    </div>
+                    <div class="secondary-work-section">
+                        <div class="project second-project-left">
+                            <a href="https://flint-wallet.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="/assets/images/projects/flint.jpg" class="project-img" alt="Flint">
+                            </a>
+                            <div class="project-info second-info-right">
+                                <h1 class="project-title">Flint</h1>
+                                <p class="project-description">Commercial website, created for the Flint browser
+                                    extension.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="project second-project-right" id="reverse-project">
+                            <div class="project-info second-info-left">
+                                <h1 class="project-title">Milkomeda</h1>
+                                <p class="project-description">Commercial website, created for the Milkomeda side-chain.
+                                </p>
+                            </div>
+                            <a href="https://www.milkomeda.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="/assets/images/projects/milkomeda.jpg" class="project-img" alt="Milkomeda">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section id="about">
+            <div class="about-container">
+                <h1 class="about-title">Who am I?</h1>
+                <p class="about-description">I'm Hansi, a software developer, currently based in Tirana, Albania. My
+                    expertise resides in front-end development and generative art, also known as creative coding. I have
+                    ventured independently for over 3 years in creative coding and have had over 1 year of industry
+                    experience in front-end development.</p>
+                <div class="about-info">
+                    <div class="skills">
+                        <h2 class="info-title left">Technologies:</h2>
+                        <div class="tech-list info-description left">
+                            <li>
+                                <ul>HTML</ul>
+                                <ul>CSS</ul>
+                                <ul>JavaScript</ul>
+                                <ul>TypeScript</ul>
+                                <ul>React</ul>
+                            </li>
+                            <li>
+                                <ul>Gatsby</ul>
+                                <ul>Tailwind</ul>
+                                <ul>MaterialUI</ul>
+                                <ul>Webpack</ul>
+                                <ul>Processing</ul>
+                            </li>
+                            <li>
+                                <ul>GIT</ul>
+                                <ul>SQL</ul>
+                                <ul>Java</ul>
+                                <ul>Python</ul>
+                                <ul>p5.js</ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h2 class="info-title right">Don't be a stranger.</h2>
+                        <p class="info-description right">Want to reach out regarding a project, to collaborate, or just
+                            say hello?
+                            Send me an email or follow me in the social platforms provided below.</p>
+                        <div class="contact-icons right">
+                            <a href="mailto: hansibrahimasi@gmail.com" target="_blank" rel="noopener noreferrer"><i
+                                    class="social far fa-envelope"></i></a>
+                            <a href="https://github.com/hansibalen" target="_blank" rel="noopener noreferrer"><i
+                                    class="social fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/hansibrahimasi" target="_blank"
+                                rel="noopener noreferrer"><i class="social fab fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/channel/UCKkevaB6r2LBvIEYDq_F1Kg" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="social fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/hansi.brahimasi" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="social fa-brands fa-instagram"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/scripts/nav.js"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
